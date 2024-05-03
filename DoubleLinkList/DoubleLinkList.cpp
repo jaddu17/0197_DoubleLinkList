@@ -206,27 +206,31 @@ int main()
 
 			switch (ch)
 			{
-			case '1' :
+			case '1':
 				addNode();
 				break;
-			case '2' :
+			case '2':
 				deleteNode();
 				break;
-			case '3' :
+			case '3':
 				traverse();
 				break;
 			case '4':
 				revtraverse();
 				break;
-			case '5' :
+			case '5':
 				searchData();
 				break;
-			case '6' :
+			case '6':
 				return 0;
 			default:
 				cout << "\nInvalid option" << endl;
 				break;
 			}
+		}
+		catch (exception& e)
+		{
+			cout << "Check for the values entered." << endl;
 		}
 	}
 }

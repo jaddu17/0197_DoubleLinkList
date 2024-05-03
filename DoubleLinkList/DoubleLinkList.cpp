@@ -203,6 +203,7 @@ int main()
 			cout << "6. Exit" << endl;
 			cout << "\nEnter your choice (1-6): ";
 			char ch;
+			cin >> ch;
 
 			switch (ch)
 			{
